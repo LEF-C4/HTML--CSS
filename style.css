@@ -6,4 +6,20 @@ a { color:orange; }
 
 .vert{color:green; }
 
+h1{color: #a5b4fc;
+font-size: 3.5em;
+font-family:'Monserrat', sans-serif;
+}
+
+p{font-size: 1.1em;
+font-family: 'Manrope', sans-serif;}
+
+a{font-size: 1em;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+}
+
+ul{font-size: 1.1em;
+    font-family: 'Manrope', sans-serif; 
+}
 
