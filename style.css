@@ -1,4 +1,4 @@
-a { color:orange; }
+
 
 .important {color: #a5b4fc
 
@@ -17,9 +17,47 @@ font-family: 'Manrope', sans-serif;}
 a{font-size: 1em;
     text-decoration: none;
     font-family: 'Manrope', sans-serif;
+    color:orange;
 }
 
 ul{font-size: 1.1em;
     font-family: 'Manrope', sans-serif; 
 }
 
+
+
+body{background-color:#1F2039 ;
+    color:#F9F8FF;}
+
+
+
+    .entete,
+    .pied-de-page{background-color: white;
+    color: #242424; 
+}
+.lien-icone:hover{
+    opacity: 0.5;
+}
+
+
+
+    .cta{background: linear-gradient(#8e86b5, #acaeed);
+    color: white; 
+    border:1px blue solid;
+    border-radius: 50px;
+
+
+}
+
+.cta:hover{background:linear-gradient(#696484,#8788BA);
+    text-decoration: none;
+}
+
+.carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+  }
+
+a:hover {
+text-decoration-line: underline;
+}
