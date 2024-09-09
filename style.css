@@ -1,4 +1,5 @@
 
+*{margin:0; }
 
 .important {color: #a5b4fc
 
@@ -33,6 +34,10 @@ body{background-color:#1F2039 ;
 header, 
 footer{background-color: white;
     color: #242424; 
+    padding-top:20px;
+    padding-bottom:20px; 
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -43,7 +48,7 @@ footer{background-color: white;
 
 
 
-    .cta{background: linear-gradient(#8e86b5, #acaeed);
+.cta{background: linear-gradient(#8e86b5, #acaeed);
     color: white; 
     border:1px blue solid;
     border-radius: 50px;
@@ -58,8 +63,31 @@ footer{background-color: white;
 .carre-contenu {
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
+    padding:50px; 
   }
 
 a:hover {
 text-decoration-line: underline;
+}
+
+section{padding:80px; }
+
+
+
+.carre-contenu ul{margin-top:30px;}
+.carre-contenu h2{margin-top:30px; }
+
+
+.flexbox{
+    display: flex;
+    justify-content: space-between
+}
+    
+.logo-centre{
+    display :flex;
+    justify-content: center;
+}
+
+.accueil-introduction{
+    display:flex;
 }
